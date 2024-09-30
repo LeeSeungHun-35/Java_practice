@@ -102,7 +102,7 @@ public class CommunityMember extends Entity {
 
 	public static CommunityMember sample() {
 		//
-		CommunityMember member = new CommunityMember("mymy@nextree.co.kr", "Minsoo Lee", "010-3321-1001");
+		CommunityMember member = new CommunityMember("abc@defg.com", "Gildong-Hong", "010-1234-5678");
 		member.setBirthDay("2001.09.23");
 		member.getAddresses().add(Address.sampleHomeAddress());
 		return member;
